@@ -65,7 +65,7 @@ const Receta = ({receta}) => {
                     >
                         <div style={modalStyle} className={classes.paper}>
                             <h2>{recetaBebida.strDrink}</h2>
-                            <h3 className="mt-4">Instrucciones</h3>
+                            <h3 className="mt-4">Instructions</h3>
                             <p className="justify-content">
                                 {recetaBebida.strInstructions}
                             </p>
